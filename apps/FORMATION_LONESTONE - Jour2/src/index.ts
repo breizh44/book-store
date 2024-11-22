@@ -22,7 +22,7 @@ export const DI = {} as {
     em: EntityManager;
 }; //creation d'un type à la volée utilisé plus loin pour l'injection de dépendances
 
-const init = async () => {
+const init = () => {
     DI.orm = await MikroORM.init(config);
 
     DI.em = DI.orm.em;
