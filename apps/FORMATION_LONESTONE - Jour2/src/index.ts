@@ -23,7 +23,7 @@ export const DI = {} as {
 }; //creation d'un type à la volée utilisé plus loin pour l'injection de dépendances
 
 const init = () => {
-    DI.orm = await MikroORM.init(config);
+    DI.orm = awaitZZ MikroORM.init(config);
 
     DI.em = DI.orm.em;
 
