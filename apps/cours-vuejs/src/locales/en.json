@@ -1,0 +1,28 @@
+{
+  "main": {
+    "hello": "Hello"
+  },
+  "book": {
+    "action": {
+      "add": "Add book"
+    }
+  },
+  "booklist": {
+    "sort": {
+      "keys": {
+        "title": "Title",
+        "author": "Author",
+        "year": "Year",
+        "genre": "Genre"
+      }
+    }
+  },
+  "about": {
+    "text": "This is an about page"
+  },
+  "chat": {
+    "action": {
+      "send": "Send"
+    }
+  }
+}
